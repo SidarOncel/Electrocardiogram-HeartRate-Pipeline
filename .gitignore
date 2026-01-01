@@ -1,0 +1,57 @@
+############################
+# Data (DO NOT COMMIT)
+############################
+data_raw/
+data_processed/
+**/*.hea
+**/*.dat
+**/*.atr
+**/*.edf
+**/*.mat
+
+# If you have small .mat config files you DO want to track,
+# put them in a separate folder like config/ and remove this rule or add an exception.
+#!config/**/*.mat
+
+
+############################
+# Results / outputs
+############################
+# Keep results out of git by default (often large). If you want to commit
+# final small summary tables/figures, put them in results_public/ instead.
+results/
+# Allow a placeholder so folder exists
+!results/.gitkeep
+
+############################
+# MATLAB / Simulink temp & cache
+############################
+*.asv
+*.m~
+*.autosave
+*.slxc
+*.slx.r*
+*.mex*
+*.p
+*.dylib
+*.so
+*.dll
+
+# MATLAB preferences / project files (optional)
+*.prj
+*.mldatx
+*.mlappinstall
+*.pref*
+
+############################
+# OS / IDE
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Logs
+############################
+*.log
