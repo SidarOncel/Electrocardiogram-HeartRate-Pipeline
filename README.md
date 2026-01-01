@@ -14,10 +14,19 @@ A Digital Signal Processing + interpretable machine learning pipeline for estima
 - Robustness:
   - Simulates realistic noise (baseline drift + EMG-like noise) at multiple severity levels
  
-dataset name (BIDMC)
+## Dataset
 
-where to download (PhysioNet)
+This project uses the **BIDMC PPG and Respiration Dataset (v1.0.0)** from PhysioNet.
+It contains **53 recordings** (each **8 minutes**) of physiological waveforms including **ECG (Lead II)**, **PPG**, and **impedance respiration** sampled at **125 Hz**, plus derived numerics including **heart rate (HR)** sampled at **1 Hz**.
 
-expected file name (bidmc_data.mat)
+**Data is not included in this repository**. Please download `bidmc_data.mat` from PhysioNet and place it in `data_raw/`.
 
-where to place it (data_raw/)
+- Dataset page (PhysioNet): BIDMC PPG and Respiration Dataset v1.0.0
+- DOI: 10.13026/C2208R
+
+## Citing
+
+If you use this repository, please cite:
+1) The BIDMC dataset (PhysioNet, DOI: 10.13026/C2208R).
+2) Pimentel, M.A.F. et al., *Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters*, IEEE TBME, 2016.
+3) Goldberger et al., *PhysioBank, PhysioToolkit, and PhysioNet*, Circulation, 2000.
