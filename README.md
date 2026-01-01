@@ -1,6 +1,6 @@
 # Electrocardiogram-HeartRate-Pipeline
 
-A DSP + interpretable machine learning pipeline for estimating heart rate (HR) from ECG (electrocardiogram) signals, designed with wearable-style constraints in mind.
+A Digital Signal Processing + interpretable machine learning pipeline for estimating heart rate (HR) from ECG (electrocardiogram) signals, designed with wearable-style constraints in mind.
 
 ## What this project does
 - Splits ECG into 10-second windows and computes ground-truth HR per window.
@@ -14,3 +14,10 @@ A DSP + interpretable machine learning pipeline for estimating heart rate (HR) f
 - Robustness:
   - Simulates realistic noise (baseline drift + EMG-like noise) at multiple severity levels
  
+dataset name (BIDMC)
+
+where to download (PhysioNet)
+
+expected file name (bidmc_data.mat)
+
+where to place it (data_raw/)
