@@ -24,6 +24,10 @@ It contains **53 recordings** (each **8 minutes**) of physiological waveforms in
 - Dataset page (PhysioNet): BIDMC PPG and Respiration Dataset v1.0.0
 - DOI: 10.13026/C2208R
 
+## How to run
+1) Download dataset to `data_raw/`
+2) Run the main script (to be added) from MATLAB
+
 ## Citing
 
 If you use this repository, please cite:
